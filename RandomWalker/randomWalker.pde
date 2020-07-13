@@ -7,6 +7,6 @@ void setup(){
 }
 
 void draw() {
-  w.step();
+  w.step(0.1,0.25,0.25);
   w.render();
 }
